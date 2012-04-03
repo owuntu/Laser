@@ -1,0 +1,210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3A5AE0B152B62EC001A1F8A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3A5AE0A152B62EC001A1F8A /* main.cpp */; };
+		A3A5AE0D152B62EC001A1F8A /* Laser.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A3A5AE0C152B62EC001A1F8A /* Laser.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A3A5AE04152B62EC001A1F8A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				A3A5AE0D152B62EC001A1F8A /* Laser.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A3A5AE06152B62EC001A1F8A /* Laser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Laser; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A5AE0A152B62EC001A1F8A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A3A5AE0C152B62EC001A1F8A /* Laser.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Laser.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3A5AE03152B62EC001A1F8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3A5ADFB152B62EC001A1F8A = {
+			isa = PBXGroup;
+			children = (
+				A3A5AE09152B62EC001A1F8A /* Laser */,
+				A3A5AE07152B62EC001A1F8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3A5AE07152B62EC001A1F8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3A5AE06152B62EC001A1F8A /* Laser */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3A5AE09152B62EC001A1F8A /* Laser */ = {
+			isa = PBXGroup;
+			children = (
+				A3A5AE0A152B62EC001A1F8A /* main.cpp */,
+				A3A5AE0C152B62EC001A1F8A /* Laser.1 */,
+			);
+			path = Laser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3A5AE05152B62EC001A1F8A /* Laser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3A5AE10152B62EC001A1F8A /* Build configuration list for PBXNativeTarget "Laser" */;
+			buildPhases = (
+				A3A5AE02152B62EC001A1F8A /* Sources */,
+				A3A5AE03152B62EC001A1F8A /* Frameworks */,
+				A3A5AE04152B62EC001A1F8A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Laser;
+			productName = Laser;
+			productReference = A3A5AE06152B62EC001A1F8A /* Laser */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3A5ADFD152B62EC001A1F8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A3A5AE00152B62EC001A1F8A /* Build configuration list for PBXProject "Laser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3A5ADFB152B62EC001A1F8A;
+			productRefGroup = A3A5AE07152B62EC001A1F8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3A5AE05152B62EC001A1F8A /* Laser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3A5AE02152B62EC001A1F8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A5AE0B152B62EC001A1F8A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A3A5AE0E152B62EC001A1F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A3A5AE0F152B62EC001A1F8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A3A5AE11152B62EC001A1F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3A5AE12152B62EC001A1F8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3A5AE00152B62EC001A1F8A /* Build configuration list for PBXProject "Laser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A5AE0E152B62EC001A1F8A /* Debug */,
+				A3A5AE0F152B62EC001A1F8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3A5AE10152B62EC001A1F8A /* Build configuration list for PBXNativeTarget "Laser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A5AE11152B62EC001A1F8A /* Debug */,
+				A3A5AE12152B62EC001A1F8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3A5ADFD152B62EC001A1F8A /* Project object */;
+}
