@@ -7,8 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3140022153B8610003731D9 /* LSCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3140020153B8610003731D9 /* LSCamera.cpp */; };
+		A3189C89153C7EBE00D6EBF6 /* LSPlane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3189C88153C7EBE00D6EBF6 /* LSPlane.cpp */; };
+		A31A489C153E3A90004EE5E6 /* LSTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A31A489B153E3A90004EE5E6 /* LSTriangle.cpp */; };
+		A341A565154737C400DB0ED3 /* LSPlaneRing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A341A564154737C400DB0ED3 /* LSPlaneRing.cpp */; };
+		A35B67E315374DF300C41AA2 /* LSSceneFileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A35B67E215374DF300C41AA2 /* LSSceneFileReader.cpp */; };
+		A35B67ED15374E7300C41AA2 /* LSLight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A35B67EB15374E7300C41AA2 /* LSLight.cpp */; };
+		A35B67F515375B8A00C41AA2 /* LSPrimitive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A35B67F415375B8A00C41AA2 /* LSPrimitive.cpp */; };
 		A3A5AE0B152B62EC001A1F8A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3A5AE0A152B62EC001A1F8A /* main.cpp */; };
-		A3A5AE0D152B62EC001A1F8A /* Laser.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A3A5AE0C152B62EC001A1F8A /* Laser.1 */; };
+		A3A5AE19152B6332001A1F8A /* LSColor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3A5AE13152B6332001A1F8A /* LSColor.cpp */; };
+		A3A5AE1A152B6332001A1F8A /* LSRaster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3A5AE15152B6332001A1F8A /* LSRaster.cpp */; };
+		A3A5AE1B152B6332001A1F8A /* LSVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3A5AE17152B6332001A1F8A /* LSVector.cpp */; };
+		A3A5AE1E152B6432001A1F8A /* images.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3A5AE1D152B6432001A1F8A /* images.cpp */; };
+		A3A5AE21152B6F17001A1F8A /* LSSphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3A5AE20152B6F17001A1F8A /* LSSphere.cpp */; };
+		A3A5AE24152B71FF001A1F8A /* LSRay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3A5AE23152B71FF001A1F8A /* LSRay.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,16 +30,43 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				A3A5AE0D152B62EC001A1F8A /* Laser.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A3140020153B8610003731D9 /* LSCamera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LSCamera.cpp; sourceTree = "<group>"; };
+		A3140021153B8610003731D9 /* LSCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSCamera.h; sourceTree = "<group>"; };
+		A3189C88153C7EBE00D6EBF6 /* LSPlane.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LSPlane.cpp; sourceTree = "<group>"; };
+		A31A4899153E3989004EE5E6 /* LSTriangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTriangle.h; sourceTree = "<group>"; };
+		A31A489B153E3A90004EE5E6 /* LSTriangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LSTriangle.cpp; sourceTree = "<group>"; };
+		A341A562154737B300DB0ED3 /* LSPlaneRing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSPlaneRing.h; sourceTree = "<group>"; };
+		A341A564154737C400DB0ED3 /* LSPlaneRing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LSPlaneRing.cpp; sourceTree = "<group>"; };
+		A35B67E115374DF300C41AA2 /* LSSceneFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSSceneFileReader.h; sourceTree = "<group>"; };
+		A35B67E215374DF300C41AA2 /* LSSceneFileReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LSSceneFileReader.cpp; sourceTree = "<group>"; };
+		A35B67EA15374E3D00C41AA2 /* LSScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSScene.h; sourceTree = "<group>"; };
+		A35B67EB15374E7300C41AA2 /* LSLight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LSLight.cpp; sourceTree = "<group>"; };
+		A35B67EC15374E7300C41AA2 /* LSLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLight.h; sourceTree = "<group>"; };
+		A35B67F315375B6200C41AA2 /* LSPrimitive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSPrimitive.h; sourceTree = "<group>"; };
+		A35B67F415375B8A00C41AA2 /* LSPrimitive.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LSPrimitive.cpp; sourceTree = "<group>"; };
+		A37AEED4153C7BF700C46CB1 /* LSPlane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSPlane.h; sourceTree = "<group>"; };
 		A3A5AE06152B62EC001A1F8A /* Laser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Laser; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A5AE0A152B62EC001A1F8A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		A3A5AE0C152B62EC001A1F8A /* Laser.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Laser.1; sourceTree = "<group>"; };
+		A3A5AE13152B6332001A1F8A /* LSColor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LSColor.cpp; sourceTree = "<group>"; };
+		A3A5AE14152B6332001A1F8A /* LSColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSColor.h; sourceTree = "<group>"; };
+		A3A5AE15152B6332001A1F8A /* LSRaster.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LSRaster.cpp; sourceTree = "<group>"; };
+		A3A5AE16152B6332001A1F8A /* LSRaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSRaster.h; sourceTree = "<group>"; };
+		A3A5AE17152B6332001A1F8A /* LSVector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LSVector.cpp; sourceTree = "<group>"; };
+		A3A5AE18152B6332001A1F8A /* LSVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSVector.h; sourceTree = "<group>"; };
+		A3A5AE1C152B6432001A1F8A /* image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = image.h; sourceTree = "<group>"; };
+		A3A5AE1D152B6432001A1F8A /* images.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = images.cpp; sourceTree = "<group>"; };
+		A3A5AE1F152B6A3A001A1F8A /* LSSphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSSphere.h; sourceTree = "<group>"; };
+		A3A5AE20152B6F17001A1F8A /* LSSphere.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LSSphere.cpp; sourceTree = "<group>"; };
+		A3A5AE22152B7184001A1F8A /* LSRay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSRay.h; sourceTree = "<group>"; };
+		A3A5AE23152B71FF001A1F8A /* LSRay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LSRay.cpp; sourceTree = "<group>"; };
+		A3C8DCCB155671C2004DD491 /* scene.urt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = scene.urt; path = "../../Library/Developer/Xcode/DerivedData/Laser-eescpxmbhqqzwzdqwtknmgobqmmo/Build/Products/Debug/scene.urt"; sourceTree = "<group>"; };
+		A3C8DCCD155671D8004DD491 /* myImage.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = myImage.bmp; path = "../../Library/Developer/Xcode/DerivedData/Laser-eescpxmbhqqzwzdqwtknmgobqmmo/Build/Products/Debug/myImage.bmp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,11 +80,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A3189C9B153CF47600D6EBF6 /* Scene Handle File */ = {
+			isa = PBXGroup;
+			children = (
+				A3140021153B8610003731D9 /* LSCamera.h */,
+				A3140020153B8610003731D9 /* LSCamera.cpp */,
+				A35B67E115374DF300C41AA2 /* LSSceneFileReader.h */,
+				A35B67E215374DF300C41AA2 /* LSSceneFileReader.cpp */,
+				A3A5AE16152B6332001A1F8A /* LSRaster.h */,
+				A3A5AE15152B6332001A1F8A /* LSRaster.cpp */,
+			);
+			name = "Scene Handle File";
+			sourceTree = "<group>";
+		};
+		A35B67E915374E2400C41AA2 /* SupportFile */ = {
+			isa = PBXGroup;
+			children = (
+				A3A5AE1C152B6432001A1F8A /* image.h */,
+				A3A5AE1D152B6432001A1F8A /* images.cpp */,
+			);
+			name = SupportFile;
+			sourceTree = "<group>";
+		};
+		A37AEED8153C7C5100C46CB1 /* Primitive */ = {
+			isa = PBXGroup;
+			children = (
+				A35B67F315375B6200C41AA2 /* LSPrimitive.h */,
+				A35B67F415375B8A00C41AA2 /* LSPrimitive.cpp */,
+				A37AEED4153C7BF700C46CB1 /* LSPlane.h */,
+				A3189C88153C7EBE00D6EBF6 /* LSPlane.cpp */,
+				A31A4899153E3989004EE5E6 /* LSTriangle.h */,
+				A31A489B153E3A90004EE5E6 /* LSTriangle.cpp */,
+				A341A562154737B300DB0ED3 /* LSPlaneRing.h */,
+				A341A564154737C400DB0ED3 /* LSPlaneRing.cpp */,
+				A3A5AE1F152B6A3A001A1F8A /* LSSphere.h */,
+				A3A5AE20152B6F17001A1F8A /* LSSphere.cpp */,
+			);
+			name = Primitive;
+			sourceTree = "<group>";
+		};
 		A3A5ADFB152B62EC001A1F8A = {
 			isa = PBXGroup;
 			children = (
 				A3A5AE09152B62EC001A1F8A /* Laser */,
 				A3A5AE07152B62EC001A1F8A /* Products */,
+				A3C8DCCB155671C2004DD491 /* scene.urt */,
+				A3C8DCCD155671D8004DD491 /* myImage.bmp */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,7 +141,18 @@
 			isa = PBXGroup;
 			children = (
 				A3A5AE0A152B62EC001A1F8A /* main.cpp */,
-				A3A5AE0C152B62EC001A1F8A /* Laser.1 */,
+				A3189C9B153CF47600D6EBF6 /* Scene Handle File */,
+				A37AEED8153C7C5100C46CB1 /* Primitive */,
+				A35B67E915374E2400C41AA2 /* SupportFile */,
+				A35B67EC15374E7300C41AA2 /* LSLight.h */,
+				A35B67EB15374E7300C41AA2 /* LSLight.cpp */,
+				A35B67EA15374E3D00C41AA2 /* LSScene.h */,
+				A3A5AE14152B6332001A1F8A /* LSColor.h */,
+				A3A5AE13152B6332001A1F8A /* LSColor.cpp */,
+				A3A5AE18152B6332001A1F8A /* LSVector.h */,
+				A3A5AE17152B6332001A1F8A /* LSVector.cpp */,
+				A3A5AE22152B7184001A1F8A /* LSRay.h */,
+				A3A5AE23152B71FF001A1F8A /* LSRay.cpp */,
 			);
 			path = Laser;
 			sourceTree = "<group>";
@@ -117,6 +208,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3A5AE0B152B62EC001A1F8A /* main.cpp in Sources */,
+				A3A5AE19152B6332001A1F8A /* LSColor.cpp in Sources */,
+				A3A5AE1A152B6332001A1F8A /* LSRaster.cpp in Sources */,
+				A3A5AE1B152B6332001A1F8A /* LSVector.cpp in Sources */,
+				A3A5AE1E152B6432001A1F8A /* images.cpp in Sources */,
+				A3A5AE21152B6F17001A1F8A /* LSSphere.cpp in Sources */,
+				A3A5AE24152B71FF001A1F8A /* LSRay.cpp in Sources */,
+				A35B67E315374DF300C41AA2 /* LSSceneFileReader.cpp in Sources */,
+				A35B67ED15374E7300C41AA2 /* LSLight.cpp in Sources */,
+				A35B67F515375B8A00C41AA2 /* LSPrimitive.cpp in Sources */,
+				A3140022153B8610003731D9 /* LSCamera.cpp in Sources */,
+				A3189C89153C7EBE00D6EBF6 /* LSPlane.cpp in Sources */,
+				A31A489C153E3A90004EE5E6 /* LSTriangle.cpp in Sources */,
+				A341A565154737C400DB0ED3 /* LSPlaneRing.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +307,7 @@
 				A3A5AE12152B62EC001A1F8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
