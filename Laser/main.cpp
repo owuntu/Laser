@@ -53,12 +53,13 @@ int main (int argc, const char * argv[])
     int rasterWidth = scene.raster.getWidth();
     int rasterHeight = scene.raster.getHeight();
     
-    //add refraction on the second object
+    //add refraction on the third object
     std::list<LSPrimitive*>::iterator iterObj;
     iterObj = scene.objectList->begin();
     iterObj++;
-    //(*iterObj)->_refraction = true;
-    (*iterObj)->_refractiveIndex = 1.5f;
+    iterObj++;
+    (*iterObj)->_refraction = true;
+    (*iterObj)->_refractiveIndex = 1.8f;
     //(*iterObj)->setMyColor(LSColorFloat_White);
     /***/
     
